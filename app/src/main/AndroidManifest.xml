@@ -9,11 +9,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name="com.paper.login.ui.LoginActivity">
+        <activity
+            android:name=".launcher.ui.LauncherActivity"
+            android:theme="@style/AppTheme.Activity.Launcher"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
+
+                <action android:name="android.intent.action.VIEW"/>
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.paper.login.ui.LoginActivity"
+            android:theme="@style/AppTheme.Activity"
+            />
     </application>
 </manifest>
