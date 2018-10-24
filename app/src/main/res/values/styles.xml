@@ -11,6 +11,7 @@
     <style name="AppTheme.Activity" />
 
     <style name="AppTheme.Activity.Launcher">
+        <item name="android:windowTranslucentStatus">true</item>
         <item name="android:windowBackground">@color/colorPrimary</item>
     </style>
 
